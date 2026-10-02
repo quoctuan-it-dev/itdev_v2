@@ -173,6 +173,27 @@ a:focus-visible {
     top: 16px;
     left: 16px;
     z-index: 4;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #4da3ff;
+    background: #0b1f3a;
+    color: #4da3ff;
+    box-shadow:
+        0 0 6px rgba(77,163,255,.6),
+        0 0 16px rgba(77,163,255,.35);
+    transition: .25s ease;
+}
+
+.menu-open:hover {
+    background: #123b70;
+    color: #fff;
+    border-color: #69b5ff;
+    box-shadow:
+        0 0 8px #4da3ff,
+        0 0 22px rgba(77,163,255,.7),
+        0 0 40px rgba(77,163,255,.35);
+    transform: scale(1.05);
 }
 
 .menu-check:checked ~ .layout .sidebar {
