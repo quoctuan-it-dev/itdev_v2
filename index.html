@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quốc Tuấn - Trang cá nhân</title>
+</head>
+<body>
+    <input type="checkbox" id="menu-check" class="menu-check" aria-label="Thu gọn hoặc mở menu">
+
+    <header class="site-header">
+        <div class="nav-bar">
+            <a class="brand" href="index.html">
+                <img src="images/logo-truongv2.svg" alt="Logo Học viện Hàng không Việt Nam" class="nav-logo">
+                <span class="site-name">Học viện Hàng không Việt Nam</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="layout">
+        <aside class="sidebar">
+            <label class="menu-close" for="menu-check" aria-label="Thu gọn menu">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h16"/></svg>
+            </label>
+            <nav aria-label="Điều hướng chính">
+                <ul class="side-menu">
+                    <li><a href="index.html" aria-current="page"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8" /><path d="M5 10v10h14V10" /></svg>Trang chủ</a></li>
+                    <li><a href="gioithieu.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" /><path d="M4 21c0-4 4-6 8-6s8 2 8 6" /></svg>Giới thiệu</a></li>
+                    <li><a href="sothich.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z" /></svg>Sở thích</a></li>
+                    <li><a href="duan.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5" /><path d="M16 7l5 5-5 5" /></svg>Dự án</a></li>
+                    <li><a href="thuvien.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" /><circle cx="9" cy="10" r="1.5" /><path d="M21 16l-5-5-9 9" /></svg>Thư viện ảnh</a></li>
+                    <li><a href="game.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"></rect><path d="M8 8h3v3H8z"></path><path d="M13 8h3v3h-3z"></path><path d="M8 13h3v3H8z"></path><path d="M13 13h3v3h-3z"></path></svg>Game</a></li>
+                    <li><a href="thanhtich.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0V4z" /><path d="M7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3" /><path d="M9 4V2h6v2" /></svg>Thành tích</a></li>
+                    <li><a href="lienhe.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 6 9-6" /></svg>Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="side-user">
+                <span class="side-avatar" aria-hidden="true">T</span>
+                <div>
+                    <strong>Trần Lê Quốc Tuấn</strong>
+                    <small>Công nghệ thông tin</small>
+                </div>
+            </div>
+        </aside>
+
+        <div class="content">
+            <label class="menu-open" for="menu-check" aria-label="Mở menu">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h16"/></svg>
+            </label>
+
+            <main>
+                <section class="hero hero-home">
+                    <img src="images/anh-dai-dien.jpg" alt="Ảnh đại diện Trần Lê Quốc Tuấn" class="hero-avatar">
+                    <h1>Xin chào, mình là Quốc Tuấn</h1>
+                    <p>Sinh viên Công nghệ thông tin, đang học để trở thành lập trình viên</p>
+                    <div class="btn-group">
+                        <a class="btn btn-primary" href="gioithieu.html">Xem giới thiệu</a>
+                        <a class="btn btn-outline" href="lienhe.html">Liên hệ</a>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Về mình</h2>
+                    <div class="grid">
+                        <article class="card accent-card">
+                            <div class="info-icon" aria-hidden="true">🎓</div>
+                            <h3>Trường học</h3>
+                            <p>Học viện Hàng không Việt Nam</p>
+                        </article>
+                        <article class="card accent-card">
+                            <div class="info-icon" aria-hidden="true">💻</div>
+                            <h3>Ngành học</h3>
+                            <p>Công nghệ thông tin</p>
+                        </article>
+                        <article class="card accent-card">
+                            <div class="info-icon" aria-hidden="true">🚀</div>
+                            <h3>Mục tiêu</h3>
+                            <p>Trở thành lập trình viên</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Khám phá thêm</h2>
+                    <div class="grid">
+                        <a class="card card-link accent-card" href="gioithieu.html">
+                            <h3>Giới thiệu</h3>
+                            <span class="more">Xem thêm</span>
+                        </a>
+                        <a class="card card-link accent-card" href="sothich.html">
+                            <h3>Sở thích</h3>
+                            <span class="more">Xem thêm</span>
+                        </a>
+                        <a class="card card-link accent-card" href="lienhe.html">
+                            <h3>Liên hệ</h3>
+                            <span class="more">Xem thêm</span>
+                        </a>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <p>&copy; 2026 Quốc Tuấn. Giới thiệu bản thân</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

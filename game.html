@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game - Quốc Tuấn</title>
+</head>
+<body>
+    <input type="checkbox" id="menu-check" class="menu-check" aria-label="Thu gọn hoặc mở menu">
+
+    <header class="site-header">
+        <div class="nav-bar">
+            <a class="brand" href="index.html"><img src="images/logo-truongv2.svg" alt="Logo Học viện Hàng không Việt Nam" class="nav-logo"><span class="site-name">Học viện Hàng không Việt Nam</span></a>
+        </div>
+    </header>
+
+    <div class="layout">
+        <aside class="sidebar">
+            <label class="menu-close" for="menu-check" aria-label="Thu gọn menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h16" /></svg></label>
+
+            <nav aria-label="Điều hướng chính">
+                <ul class="side-menu">
+                    <li><a href="index.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8" /><path d="M5 10v10h14V10" /></svg>Trang chủ</a></li>
+                    <li><a href="gioithieu.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" /><path d="M4 21c0-4 4-6 8-6s8 2 8 6" /></svg>Giới thiệu</a></li>
+                    <li><a href="sothich.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-5.5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 10c0 5.5-8 11-8 11z" /></svg>Sở thích</a></li>
+                    <li><a href="duan.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5" /><path d="M16 7l5 5-5 5" /></svg>Dự án</a></li>
+                    <li><a href="thuvien.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" /><circle cx="9" cy="10" r="1.5" /><path d="M21 16l-5-5-9 9" /></svg>Thư viện ảnh</a></li>
+                    <li><a href="game.html" aria-current="page"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" /><path d="M8 8h3v3H8z" /><path d="M13 8h3v3h-3z" /><path d="M8 13h3v3H8z" /><path d="M13 13h3v3h-3z" /></svg>Game</a></li>
+                    <li><a href="thanhtich.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0V4z" /><path d="M7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3" /><path d="M9 4V2h6v2" /></svg>Thành tích</a></li>
+                    <li><a href="lienhe.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 6 9-6" /></svg>Liên hệ</a></li>
+                </ul>
+            </nav>
+
+            <div class="side-user">
+                <span class="side-avatar" aria-hidden="true">T</span>
+                <div><strong>Trần Lê Quốc Tuấn</strong><small>Công nghệ thông tin</small></div>
+            </div>
+        </aside>
+
+        <div class="content">
+            <label class="menu-open" for="menu-check" aria-label="Mở menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h16" /></svg></label>
+
+            <main>
+                <section class="hero hero-small">
+                    <p class="badge">Giải trí xíu hé</p>
+                    <h1>Game lật thẻ</h1>
+                    <div class="hero-cta"><span>Hãy lật các thẻ và tìm những cặp hình giống nhau</span><a class="btn btn-primary" href="thuvien.html">Xem thư viện ảnh</a></div>
+                </section>
+
+                <section class="section game-section">
+                    <h2 class="section-title">Tìm các cặp hình giống nhau</h2>
+
+                    <div class="memory-game">
+                        <div class="memory-board">
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-03.jpg" alt="Hình 3"></span></span></label>
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-01.jpg" alt="Hình 1"></span></span></label>
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-04.jpg" alt="Hình 4"></span></span></label>
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-02.jpg" alt="Hình 2"></span></span></label>
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-04.jpg" alt="Hình 4"></span></span></label>
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-02.jpg" alt="Hình 2"></span></span></label>
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-01.jpg" alt="Hình 1"></span></span></label>
+                            <label class="memory-card"><input type="checkbox"><span class="memory-card-inner"><span class="memory-card-front"></span><span class="memory-card-back"><img src="images/gallery-03.jpg" alt="Hình 3"></span></span></label>
+                        </div>
+
+                        <div class="memory-help"><strong>Cách chơi:</strong> Lật hai thẻ để tìm hai hình giống nhau.</div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <p>&copy; 2026 Quốc Tuấn. Giới thiệu bản thân</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
